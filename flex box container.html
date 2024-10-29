@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--it is a one dimentional layout method for arranging item in rows and columns-->
+      <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 3px solid black;
+            margin-right: 5px;
+        }
+        #heading{
+            margin-left: 200px;}
+            #container{
+                height: 150px;
+                width: 600px;
+                padding: 10px;
+                margin: 20px;
+                border: 3px solid black;
+                display:flex;
+               justify-content: space-evenly;
+            }
+
+
+
+            #box1{background-color: blue;}
+            #box2{background-color:greenyellow;}
+            #box3{background-color: rgb(211, 69, 201);}
+            #box4{background-color: rgb(200, 182, 25);}
+      </style>
+</head>
+<body>
+     <h1 id="heading">flex container</h1>
+    <div id="container">
+      <div id="box1"> flex item1</div>
+      <div id="box2"> flex item2</div>
+      <div id="box3"> flex item3</div>
+      <div id="box4"> flex item4</div>
+
+
+    </div>
+</body>
+</html>

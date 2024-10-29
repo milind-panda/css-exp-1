@@ -1,0 +1,15 @@
+nav a{
+    text-decoration: none;
+    margin-left: 55px;
+    padding: 5px;
+}
+
+header{
+    background-color: blanchedalmond;
+    height: 30px;
+}
+#second{
+height: 50px;
+width: 50px;
+ border-radius: 50%;
+}

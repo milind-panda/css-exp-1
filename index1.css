@@ -1,0 +1,19 @@
+*{margin: 0;
+padding: 0;}
+nav a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height:25px ;
+    padding-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
+#image{
+    display: flex;
+}
+header{
+    background-color: blueviolet;
+}

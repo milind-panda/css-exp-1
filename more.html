@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Attendance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Class Attendance</h1>
+        <table id="attendance-table">
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Status</th>
+                    <th>Mark Attendance</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td id="status-1">Absent</td>
+                    <td>
+                        <button onclick="markAttendance(1, 'present')">Present</button>
+                        <button onclick="markAttendance(1, 'absent')">Absent</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td id="status-2">Absent</td>
+                    <td>
+                        <button onclick="markAttendance(2, 'present')">Present</button>
+                        <button onclick="markAttendance(2, 'absent')">Absent</button>
+                    </td>
+                </tr>
+                <!-- Add more students here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
